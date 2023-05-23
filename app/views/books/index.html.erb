@@ -1,0 +1,9 @@
+<h1>Some books</h1>
+<ul>
+  <% @lotsabooks.each do |book| %>
+    <li>
+<a href="/books/<%= book.id %>">
+      <%= book.title %>
+    </li>
+  <% end %>
+</ul>
