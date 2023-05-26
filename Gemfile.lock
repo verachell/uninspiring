@@ -165,6 +165,8 @@ GEM
     reline (0.3.3)
       io-console (~> 0.5)
     rexml (3.2.5)
+    route_downcaser (1.2.3)
+      activesupport (>= 3.2)
     rubyzip (2.3.2)
     selenium-webdriver (4.9.1)
       rexml (~> 3.2, >= 3.2.5)
@@ -216,6 +218,7 @@ DEPENDENCIES
   jbuilder
   puma (~> 5.0)
   rails (~> 7.0.4, >= 7.0.4.3)
+  route_downcaser
   selenium-webdriver
   sprockets-rails
   sqlite3 (~> 1.4)
