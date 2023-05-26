@@ -2,8 +2,7 @@
 <ul>
   <% @lotsabooks.each do |book| %>
     <li>
-<a href="/books/<%= book.id %>">
-      <%= book.title %>
+<%= link_to book.title, book %>
     </li>
   <% end %>
 </ul>
